@@ -1,0 +1,191 @@
+{
+  "students": [
+    {
+      "reg_no": "24104156040",
+      "password": "ISHUkr75@",
+      "name": "Ishu Kumar",
+      "profile": {
+        "email": "ishu.kumar@iitp.ac.in",
+        "phone": "+91 9876543210",
+        "course": "B.Tech Computer Science",
+        "year": "2nd Year",
+        "rollNo": "2024CS040",
+        "address": "Hostel A, Room 204"
+      },
+      "attendance": {
+        "overall": 85,
+        "subjects": [
+          { "name": "Data Structures", "percentage": 90, "total": 45, "present": 40 },
+          { "name": "Mathematics", "percentage": 82, "total": 40, "present": 33 },
+          { "name": "Physics", "percentage": 88, "total": 35, "present": 31 },
+          { "name": "English", "percentage": 92, "total": 30, "present": 28 }
+        ]
+      },
+      "schedule": [
+        { "day": "Monday", "time": "09:00-10:00", "subject": "Data Structures", "room": "CS-101" },
+        { "day": "Monday", "time": "10:00-11:00", "subject": "Mathematics", "room": "MA-205" },
+        { "day": "Tuesday", "time": "09:00-10:00", "subject": "Physics", "room": "PH-103" },
+        { "day": "Tuesday", "time": "11:00-12:00", "subject": "English", "room": "EN-202" },
+        { "day": "Wednesday", "time": "09:00-10:00", "subject": "Data Structures Lab", "room": "CS-Lab-1" },
+        { "day": "Thursday", "time": "10:00-11:00", "subject": "Mathematics", "room": "MA-205" },
+        { "day": "Friday", "time": "09:00-10:00", "subject": "Physics Lab", "room": "PH-Lab-2" }
+      ],
+      "assignments": [
+        { "id": 1, "subject": "Data Structures", "title": "Implement Binary Search Tree", "dueDate": "2024-02-15", "status": "pending" },
+        { "id": 2, "subject": "Mathematics", "title": "Calculus Problem Set 3", "dueDate": "2024-02-12", "status": "submitted" },
+        { "id": 3, "subject": "Physics", "title": "Wave Motion Analysis", "dueDate": "2024-02-18", "status": "pending" },
+        { "id": 4, "subject": "English", "title": "Essay on Technical Communication", "dueDate": "2024-02-10", "status": "completed" }
+      ],
+      "exams": [
+        { "subject": "Data Structures", "date": "2024-03-15", "time": "09:00 AM", "room": "CS-101", "type": "Mid-term" },
+        { "subject": "Mathematics", "date": "2024-03-18", "time": "02:00 PM", "room": "MA-205", "type": "Mid-term" },
+        { "subject": "Physics", "date": "2024-03-20", "time": "10:00 AM", "room": "PH-103", "type": "Mid-term" },
+        { "subject": "English", "date": "2024-03-22", "time": "11:00 AM", "room": "EN-202", "type": "Mid-term" }
+      ],
+      "resources": [
+        { "title": "Data Structures Notes", "type": "PDF", "url": "/resources/ds-notes.pdf", "subject": "Data Structures" },
+        { "title": "Calculus Reference", "type": "PDF", "url": "/resources/calculus-ref.pdf", "subject": "Mathematics" },
+        { "title": "Physics Formulas", "type": "PDF", "url": "/resources/physics-formulas.pdf", "subject": "Physics" },
+        { "title": "Technical Writing Guide", "type": "PDF", "url": "/resources/tech-writing.pdf", "subject": "English" }
+      ],
+      "events": [
+        { "title": "Tech Fest 2024", "date": "2024-03-01", "time": "10:00 AM", "venue": "Main Auditorium", "type": "Festival" },
+        { "title": "Career Fair", "date": "2024-02-25", "time": "09:00 AM", "venue": "Convention Center", "type": "Career" },
+        { "title": "Guest Lecture: AI in Healthcare", "date": "2024-02-20", "time": "02:00 PM", "venue": "CS-Auditorium", "type": "Lecture" }
+      ],
+      "notice": [
+        { "title": "Mid-term Exam Schedule Released", "date": "2024-02-10", "content": "Check your exam schedule on the portal", "priority": "high" },
+        { "title": "Library Timings Updated", "date": "2024-02-08", "content": "New timings: 8 AM to 10 PM", "priority": "medium" },
+        { "title": "Hostel Mess Menu Updated", "date": "2024-02-05", "content": "New menu available from next week", "priority": "low" }
+      ],
+      "lostAndFound": [
+        { "id": 1, "type": "found", "item": "Blue Water Bottle", "location": "Library", "date": "2024-02-08", "contact": "Found by: John Doe" },
+        { "id": 2, "type": "lost", "item": "Black Wallet", "location": "Canteen", "date": "2024-02-07", "contact": "Contact: jane@iitp.ac.in" }
+      ],
+      "settings": {
+        "notifications": true,
+        "emailUpdates": true,
+        "theme": "light"
+      }
+    },
+    {
+      "reg_no": "24104156041",
+      "password": "AMIT123@",
+      "name": "Amit Sharma",
+      "profile": {
+        "email": "amit.sharma@iitp.ac.in",
+        "phone": "+91 9876543211",
+        "course": "B.Tech Electrical Engineering",
+        "year": "2nd Year",
+        "rollNo": "2024EE041",
+        "address": "Hostel B, Room 305"
+      },
+      "attendance": {
+        "overall": 78,
+        "subjects": [
+          { "name": "Circuit Analysis", "percentage": 85, "total": 42, "present": 36 },
+          { "name": "Electronics", "percentage": 75, "total": 40, "present": 30 },
+          { "name": "Mathematics", "percentage": 80, "total": 38, "present": 30 },
+          { "name": "Physics", "percentage": 72, "total": 35, "present": 25 }
+        ]
+      },
+      "schedule": [
+        { "day": "Monday", "time": "09:00-10:00", "subject": "Circuit Analysis", "room": "EE-101" },
+        { "day": "Monday", "time": "11:00-12:00", "subject": "Electronics", "room": "EE-205" },
+        { "day": "Tuesday", "time": "09:00-10:00", "subject": "Mathematics", "room": "MA-205" },
+        { "day": "Wednesday", "time": "10:00-11:00", "subject": "Physics", "room": "PH-103" },
+        { "day": "Thursday", "time": "09:00-10:00", "subject": "Electronics Lab", "room": "EE-Lab-1" },
+        { "day": "Friday", "time": "10:00-11:00", "subject": "Circuit Analysis", "room": "EE-101" }
+      ],
+      "assignments": [
+        { "id": 1, "subject": "Circuit Analysis", "title": "AC Circuit Analysis", "dueDate": "2024-02-16", "status": "pending" },
+        { "id": 2, "subject": "Electronics", "title": "Transistor Characteristics", "dueDate": "2024-02-14", "status": "submitted" },
+        { "id": 3, "subject": "Mathematics", "title": "Differential Equations", "dueDate": "2024-02-19", "status": "pending" }
+      ],
+      "exams": [
+        { "subject": "Circuit Analysis", "date": "2024-03-16", "time": "09:00 AM", "room": "EE-101", "type": "Mid-term" },
+        { "subject": "Electronics", "date": "2024-03-19", "time": "02:00 PM", "room": "EE-205", "type": "Mid-term" },
+        { "subject": "Mathematics", "date": "2024-03-21", "time": "10:00 AM", "room": "MA-205", "type": "Mid-term" }
+      ],
+      "resources": [
+        { "title": "Circuit Analysis Handbook", "type": "PDF", "url": "/resources/circuit-analysis.pdf", "subject": "Circuit Analysis" },
+        { "title": "Electronics Fundamentals", "type": "PDF", "url": "/resources/electronics-fund.pdf", "subject": "Electronics" }
+      ],
+      "events": [
+        { "title": "IEEE Workshop", "date": "2024-02-28", "time": "02:00 PM", "venue": "EE Seminar Hall", "type": "Workshop" },
+        { "title": "Tech Fest 2024", "date": "2024-03-01", "time": "10:00 AM", "venue": "Main Auditorium", "type": "Festival" }
+      ],
+      "notice": [
+        { "title": "Lab Equipment Maintenance", "date": "2024-02-09", "content": "EE Lab will be closed for maintenance", "priority": "high" },
+        { "title": "Mid-term Exam Schedule Released", "date": "2024-02-10", "content": "Check your exam schedule on the portal", "priority": "high" }
+      ],
+      "lostAndFound": [
+        { "id": 1, "type": "lost", "item": "Calculator", "location": "EE Lab", "date": "2024-02-06", "contact": "Contact: amit@iitp.ac.in" }
+      ],
+      "settings": {
+        "notifications": true,
+        "emailUpdates": false,
+        "theme": "dark"
+      }
+    },
+    {
+      "reg_no": "24104156042",
+      "password": "PRIYA456@",
+      "name": "Priya Singh",
+      "profile": {
+        "email": "priya.singh@iitp.ac.in",
+        "phone": "+91 9876543212",
+        "course": "B.Tech Mechanical Engineering",
+        "year": "2nd Year",
+        "rollNo": "2024ME042",
+        "address": "Hostel C, Room 108"
+      },
+      "attendance": {
+        "overall": 92,
+        "subjects": [
+          { "name": "Thermodynamics", "percentage": 95, "total": 40, "present": 38 },
+          { "name": "Mechanics", "percentage": 90, "total": 42, "present": 38 },
+          { "name": "Mathematics", "percentage": 88, "total": 38, "present": 33 },
+          { "name": "Engineering Drawing", "percentage": 96, "total": 35, "present": 34 }
+        ]
+      },
+      "schedule": [
+        { "day": "Monday", "time": "10:00-11:00", "subject": "Thermodynamics", "room": "ME-101" },
+        { "day": "Tuesday", "time": "09:00-10:00", "subject": "Mechanics", "room": "ME-205" },
+        { "day": "Wednesday", "time": "11:00-12:00", "subject": "Mathematics", "room": "MA-205" },
+        { "day": "Thursday", "time": "10:00-11:00", "subject": "Engineering Drawing", "room": "ME-Drawing" },
+        { "day": "Friday", "time": "09:00-10:00", "subject": "Thermodynamics Lab", "room": "ME-Lab-1" }
+      ],
+      "assignments": [
+        { "id": 1, "subject": "Thermodynamics", "title": "Heat Engine Analysis", "dueDate": "2024-02-17", "status": "completed" },
+        { "id": 2, "subject": "Mechanics", "title": "Force Analysis Project", "dueDate": "2024-02-13", "status": "submitted" },
+        { "id": 3, "subject": "Engineering Drawing", "title": "CAD Assembly Drawing", "dueDate": "2024-02-20", "status": "pending" }
+      ],
+      "exams": [
+        { "subject": "Thermodynamics", "date": "2024-03-17", "time": "09:00 AM", "room": "ME-101", "type": "Mid-term" },
+        { "subject": "Mechanics", "date": "2024-03-20", "time": "02:00 PM", "room": "ME-205", "type": "Mid-term" },
+        { "subject": "Mathematics", "date": "2024-03-22", "time": "10:00 AM", "room": "MA-205", "type": "Mid-term" }
+      ],
+      "resources": [
+        { "title": "Thermodynamics Reference", "type": "PDF", "url": "/resources/thermo-ref.pdf", "subject": "Thermodynamics" },
+        { "title": "CAD Software Guide", "type": "PDF", "url": "/resources/cad-guide.pdf", "subject": "Engineering Drawing" }
+      ],
+      "events": [
+        { "title": "Mechanical Engineering Symposium", "date": "2024-02-26", "time": "01:00 PM", "venue": "ME Auditorium", "type": "Symposium" },
+        { "title": "Tech Fest 2024", "date": "2024-03-01", "time": "10:00 AM", "venue": "Main Auditorium", "type": "Festival" }
+      ],
+      "notice": [
+        { "title": "Mid-term Exam Schedule Released", "date": "2024-02-10", "content": "Check your exam schedule on the portal", "priority": "high" },
+        { "title": "CAD Lab Upgrade", "date": "2024-02-07", "content": "New software installed in CAD Lab", "priority": "medium" }
+      ],
+      "lostAndFound": [
+        { "id": 1, "type": "found", "item": "Engineering Scale", "location": "Drawing Hall", "date": "2024-02-09", "contact": "Found by: Priya Singh" }
+      ],
+      "settings": {
+        "notifications": true,
+        "emailUpdates": true,
+        "theme": "light"
+      }
+    }
+  ]
+}
