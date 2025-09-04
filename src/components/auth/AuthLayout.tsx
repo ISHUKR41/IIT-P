@@ -193,7 +193,7 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({
               {stats.map((stat, index) => {
               const IconComponent = stat.icon;
               return <div key={stat.label} className="auth-stats bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 hover:bg-white/20 transition-all duration-500 hover:scale-110 group cursor-pointer">
-                    <div className="flex items-center space-x-4">
+                    <div className="flex items-center space-x-4 bg-slate-700">
                       <div className="p-3 bg-white/20 rounded-full group-hover:bg-white/30 transition-colors duration-300">
                         <IconComponent className={`h-8 w-8 ${stat.color}`} />
                       </div>
